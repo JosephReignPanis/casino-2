@@ -28,7 +28,7 @@ const soccerMatchDetails = {
 };
 const basketballMatchDetails = {
   videoSrc: "/video.mp4",
-  sportIconSrc: "/sports_nav/icon_sports04.png", 
+  sportIconSrc: "/sports_nav/icon_sports04.png",
   league: "NBA",
   date: "April 8, 2025 - 18:00",
   odds: [
@@ -44,8 +44,8 @@ const basketballMatchDetails = {
 
 const RacelMatchDetails = {
   videoSrc: "/video.mp4",
-  sportIconSrc: "/sports_nav/icon_sports04.png", 
-  raceIconSrc: "/sports_nav/icon_sports04.png", 
+  sportIconSrc: "/sports_nav/icon_sports04.png",
+  raceIconSrc: "/sports_nav/icon_sports04.png",
   league: "Festival Downs",
   date: "Tue Apr 08 14:48",
   odds: [
@@ -94,7 +94,7 @@ const sportTabs: Record<string, { id: string; label: string }[]> = {
 };
 
 // Component map for content
-const tabComponents: Record<string, Record<string, JSX.Element>> = {
+const tabComponents: Record<string, Record<string, React.ReactNode>> = {
   soccer: {
     "World Cup": <AllWorldCup />,
     "Euro Cup": <AllEuroCup />,
