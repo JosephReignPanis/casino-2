@@ -164,7 +164,7 @@ const sportTabs: Record<string, { id: string; label: string }[]> = {
   PBG: [{ id: "PBG파워볼5분", label: "파워볼5분" }],
 };
 
-const tabComponents: Record<string, Record<string, JSX.Element>> = {
+const tabComponents: Record<string, Record<string, React.ReactNode>> = {
   로투스: {
     로투스sniffling: (
       <>
